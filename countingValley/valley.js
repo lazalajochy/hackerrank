@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/counting-valleys/problem
+
 var path = "UDUDDUUUDUDUDUUDUUDDDDDUDUDDDDUUDDUDDUUUUDUUDUDDDDUDUDUUUDDDUUUDUDDUUDDDUUDDUDDDUDUUDUUDUUDUDDDUUUUU"; //waiting for 6
 var result = countValley(path);
 function countValley(path) {
