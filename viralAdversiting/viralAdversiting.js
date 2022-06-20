@@ -11,7 +11,7 @@ function viralAdversiting(n) {
   do {
     shared == 0 ? (shared = Math.floor(5 / 2)) : (shared = liked * 3);
     liked == 0 ? (liked = shared) : (liked = Math.floor(shared / 2));
-    sum += liked;
+    result += liked;
     increment++;
   } while (increment <= n);
 
