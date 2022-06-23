@@ -2,7 +2,7 @@
 
 var a = 24,
   b = 49;
-var result = square(a, b);
+var result = squares(a, b);
 function squares(a, b) {
   var result = 0,
     impar = 0,
