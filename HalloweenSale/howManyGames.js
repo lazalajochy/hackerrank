@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=true
 var p = 20,
   d = 3,
   m = 6,
