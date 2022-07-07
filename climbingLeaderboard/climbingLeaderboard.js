@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem?isFullScreen=true
 var ranked = [100, 90, 90, 80], player = [70, 80, 105];
 
 
