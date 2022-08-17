@@ -21,9 +21,5 @@ function climbingLeaderboard(ranked, player) {
         }
         j = 0;
     })
-
-
-
     return result.sort((a, b) => { return b - a });
-
 }
