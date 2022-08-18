@@ -4,18 +4,16 @@
 
  var result = pickingNumbers(a)
  function pickingNumbers(a) {
-     debugger
-     var result = 1, aux = 0;
+     var result = 0, aux = 1;
      for (var i = 0; i < a.length; i++) {
          for (var j = 0; j < a.length; j++) {
-             var n = a[j], n1 = a[i]
-             var x = n1 - n;
+             var absoluteDifference = a[i] - a[j];
              if (j !== i) {
-                 if (x == 1 || x == 0) result++;
+                 if (absoluteDifference == 1 || absoluteDifference == 0) result++;
              }
          }
-         if (result > aux) aux = result;
-         result = 1;
+         if (aux > result) result = aux;
+         aux = 1;
      }
-     return aux;
+     return result;
  }
