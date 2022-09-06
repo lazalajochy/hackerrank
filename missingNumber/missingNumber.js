@@ -16,5 +16,5 @@ function missing(arr, brr) {
 
     brr = brr.filter((val, ind, arr) => arr.indexOf(val) === ind)
     brr.sort((a, b) => { return a - b })
-    document.write(brr)
+    return brr;
 }
