@@ -6,8 +6,7 @@ function workBook(arr, k) {
     let special = 0, pages = 1, aux = 1;
     let n = 0
     for (let i = 0; i < arr.length; i++) {
-        n = arr[i];
-        for (let j = 1; j <= n; j++) {
+        for (let j = 1; j <= arr[i]; j++) {
             if (aux <= k) {
                 if (pages == j) special++;
             } else {
