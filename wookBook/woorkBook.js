@@ -2,9 +2,7 @@
 var arr = [4, 2, 6, 1, 10], k = 3;
 var result = workBook(arr, k);
 function workBook(arr, k) {
-    debugger;
     let special = 0, pages = 1, aux = 1;
-    let n = 0
     for (let i = 0; i < arr.length; i++) {
         for (let j = 1; j <= arr[i]; j++) {
             if (aux <= k) {
