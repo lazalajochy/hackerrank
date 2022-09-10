@@ -4,8 +4,7 @@ var s = 'SOSOOSOSOSOSOSSOSOSOSOSOSOS';
 var result = marsExploration(s);
 
 function marsExploration(s) {
-    debugger
-    var result = 0, arr = [], letter = '', msg = "SOS";
+    var result = 0, arr = [], msg = "SOS";
     for (var i = 0; i < s.length; i++) {
         arr.push(s[i]);
         if (arr.length == 3) {
