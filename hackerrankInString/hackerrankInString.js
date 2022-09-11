@@ -2,7 +2,6 @@
 function hackerrankInString(s) {
     var word = 'hackerrank', stringCompare = '', arr = [];
     var j = 0;
-    debugger
     for (var i = 0; i < word.length; i++) {
         for (j; j < s.length; j++) {
             if (s[j] === word[i]) {
