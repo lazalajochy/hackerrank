@@ -34,3 +34,7 @@ function kaprekarNumbers(p, q) {
         console.log(result.join(' '))
     }
 }
+
+/**
+ la complejidad algoritma de este codig es n * n * O(1) => O(n2), en otras palabras O(n2)
+ */
