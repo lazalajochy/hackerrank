@@ -19,7 +19,6 @@ function kaprekarNumbers(p, q) {
                 } else {
                     n2 += number[k];
                 }
-                var z = parseInt(n1) + parseInt(n2)
             }
             if (p == parseInt(n1) + parseInt(n2)) result.push(p)
 
