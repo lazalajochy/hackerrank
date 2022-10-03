@@ -16,4 +16,4 @@ function icecreamParlor(m, arr) {
     }
     ressult = ressult.filter((val, ind, arr) => arr.indexOf(val) === ind);
     return ressult;
-};
+}
