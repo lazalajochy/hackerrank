@@ -15,7 +15,6 @@ function birthday(s, d, m) {
         sum = s[i]
         len.push(s[i])
         for (let j = i + 1; j < s.length; j++) {
-            if (i !== j) {
                 sum += s[j];
                 len.push(s[j]);
                 if (sum == d) {
@@ -28,7 +27,7 @@ function birthday(s, d, m) {
                 } else {
                     if (sum > d) break
                 }
-            }
+            
 
         }
 
