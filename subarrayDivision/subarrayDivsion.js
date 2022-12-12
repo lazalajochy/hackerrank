@@ -27,11 +27,7 @@ function birthday(s, d, m) {
                 } else {
                     if (sum > d) break
                 }
-            
-
         }
-
-
     }
     return result;
 }
