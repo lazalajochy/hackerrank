@@ -23,6 +23,7 @@ function insertSort1(arr) {
 
     let currentValue, nextValue, indexValue = arr.length - 1;
     currentValue = arr[indexValue]
+
     for (let i = arr.length - 1; i >= 0; i--) {
         nextValue = arr[i - 1];
         if (nextValue > currentValue) {
@@ -31,9 +32,9 @@ function insertSort1(arr) {
             indexValue = i - 1;
         } else {
             arr.splice(i, 1, currentValue);
-            currentValue = arr[i - 1]
-            indexValue = i - 1;
-            console.log(arr.join(" "))
+            console.log(arr.join(" "));
+            break
+
         }
     }
 }
